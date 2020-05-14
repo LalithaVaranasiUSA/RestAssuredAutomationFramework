@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [restassuredtestsuite]">
+  <listeners>
+    <listener class-name="com.employeeapi.utilities.Listeners"/>
+  </listeners>
+  <test name="restassuredtest(failed)">
+    <classes>
+      <class name="com.employeeapi.testcases.TC005_DELETE_Employee_Record">
+        <methods>
+          <include name="checkResponseBody"/>
+          <include name="deleteEmployee"/>
+        </methods>
+      </class> <!-- com.employeeapi.testcases.TC005_DELETE_Employee_Record -->
+      <class name="com.employeeapi.testcases.TC003_POST_Employee_Record">
+        <methods>
+          <include name="createEmployee"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.employeeapi.testcases.TC003_POST_Employee_Record -->
+      <class name="com.employeeapi.testcases.TC001_GET_All_Employees">
+        <methods>
+          <include name="getAllEmployees"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.employeeapi.testcases.TC001_GET_All_Employees -->
+      <class name="com.employeeapi.testcases.TC004_PUT_Employee_Record">
+        <methods>
+          <include name="updateEmployee"/>
+        </methods>
+      </class> <!-- com.employeeapi.testcases.TC004_PUT_Employee_Record -->
+      <class name="com.employeeapi.testcases.TC002_GET_Single_Employee_Record">
+        <methods>
+          <include name="tearDown"/>
+          <include name="checkResponseBody"/>
+          <include name="getEmployeeData"/>
+        </methods>
+      </class> <!-- com.employeeapi.testcases.TC002_GET_Single_Employee_Record -->
+    </classes>
+  </test> <!-- restassuredtest(failed) -->
+</suite> <!-- Failed suite [restassuredtestsuite] -->

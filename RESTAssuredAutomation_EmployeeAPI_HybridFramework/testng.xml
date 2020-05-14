@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="restassuredtestsuite">
+<listeners>
+	<listener class-name="com.employeeapi.utilities.Listeners"/>
+</listeners>
+	<test name="restassuredtest">
+	<classes>
+		<class name="com.employeeapi.testcases.TC001_GET_All_Employees"/>
+		<class name="com.employeeapi.testcases.TC002_GET_Single_Employee_Record"/>
+		<class name="com.employeeapi.testcases.TC003_POST_Employee_Record"/>
+		<class name="com.employeeapi.testcases.TC004_PUT_Employee_Record"/>
+		<class name="com.employeeapi.testcases.TC005_DELETE_Employee_Record"/>
+	</classes>
+	</test>
+</suite>
