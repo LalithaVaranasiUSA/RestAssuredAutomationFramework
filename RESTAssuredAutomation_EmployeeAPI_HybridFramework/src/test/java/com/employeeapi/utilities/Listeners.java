@@ -17,7 +17,7 @@ public class Listeners extends TestListenerAdapter{
 	
 	public void onStart(ITestContext testContext)
 	{
-		System.out.println(System.getProperty("user.dir")+"\\Reports\\myReport.html");
+		//System.out.println(System.getProperty("user.dir")+"\\Reports\\myReport.html");
 		htmlReporter=new ExtentHtmlReporter(System.getProperty("user.dir")+"\\Reports\\myReport.html");
 		htmlReporter.config().setDocumentTitle("Automation Report");
 		htmlReporter.config().setReportName("Rest API Testing Report");

@@ -13,9 +13,9 @@ import io.restassured.http.Method;
 import io.restassured.path.json.JsonPath;
 import io.restassured.specification.RequestSpecification;
 
-public class TC003_POST_Employee_Record extends TestBase {
+public class TC002_POST_Employee_Record extends TestBase {
 
-		public TC003_POST_Employee_Record()
+		public TC002_POST_Employee_Record()
 		{
 			super();
 		}
