@@ -1,8 +1,8 @@
 package com.employeeapi.testcases;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
 import org.json.simple.JSONObject;
 import org.testng.Assert;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import com.employeeapi.base.TestBase;
@@ -11,7 +11,6 @@ import com.employeeapi.utilities.RestUtil;
 import io.restassured.RestAssured;
 import io.restassured.http.Method;
 import io.restassured.path.json.JsonPath;
-import io.restassured.specification.RequestSpecification;
 
 public class TC002_POST_Employee_Record extends TestBase {
 

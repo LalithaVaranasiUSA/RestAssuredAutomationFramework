@@ -3,9 +3,10 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.employeeapi.testcases.TC002_POST_Employee_Record"/>
       <class name="com.employeeapi.testcases.TC001_GET_All_Employees"/>
+      <class name="com.employeeapi.testcases.TC002_POST_Employee_Record"/>
       <class name="com.employeeapi.testcases.TC004_PUT_Employee_Record"/>
+      <class name="com.employeeapi.testcases.TC005_DELETE_Employee_Record"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

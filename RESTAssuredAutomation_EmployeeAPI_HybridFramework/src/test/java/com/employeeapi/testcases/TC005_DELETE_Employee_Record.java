@@ -1,12 +1,11 @@
 package com.employeeapi.testcases;
 
 import org.testng.Assert;
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import com.employeeapi.base.TestBase;
-import com.employeeapi.utilities.RestUtil;
+//import com.employeeapi.utilities.RestUtil;
 
 import io.restassured.RestAssured;
 import io.restassured.http.Method;
@@ -37,7 +36,7 @@ public class TC005_DELETE_Employee_Record extends TestBase{
 	Thread.sleep(5000);
 	}
 
-	//@Test
+	@Test
 	void checkResponseBody()
 	{		
 		String responseBody=response.getBody().asString();	

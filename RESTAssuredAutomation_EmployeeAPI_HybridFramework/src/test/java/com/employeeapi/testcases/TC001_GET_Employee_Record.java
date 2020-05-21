@@ -10,8 +10,8 @@ import com.employeeapi.base.TestBase;
 import io.restassured.RestAssured;
 import io.restassured.http.Method;
 
-public class TC001_GET_All_Employees extends TestBase {
-	public TC001_GET_All_Employees()
+public class TC001_GET_Employee_Record  extends TestBase {
+	public TC001_GET_Employee_Record ()
 	{
 		super();
 	}
@@ -117,3 +117,4 @@ public class TC001_GET_All_Employees extends TestBase {
 	
 	
 }
+
